@@ -1,0 +1,5 @@
+#### Open wind data ####
+data_18 <- nc_open("C:/Users/.../global_UM_2018.nc", 
+                   readunlim = TRUE)
+
+print(data_18)
